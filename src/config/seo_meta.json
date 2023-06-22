@@ -1,0 +1,26 @@
+{
+  "title": "Next JS Starter",
+  "titleTemplate": "%s - ACME Storefront",
+  "description": "The perfect starter for NextJS 12",
+  "openGraph": {
+    "title": "Next JS 12",
+    "description": "The perfect starter for NextJS 12",
+    "type": "website",
+    "url": "https://<example>.com",
+    "site_name": "NextJS 12 Starter",
+    "images": [
+      {
+        "url": "/card.png",
+        "width": "800",
+        "height": "600",
+        "alt": "Next.js Commerce"
+      }
+    ]
+  },
+  "facebook": {
+    "site": "https://www.facebook.com"
+  },
+  "instagram": {
+    "site": "https://www.instagram.com"
+  }
+}

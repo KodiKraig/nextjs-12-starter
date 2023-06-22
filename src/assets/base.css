@@ -1,0 +1,126 @@
+:root {
+  --primary: #000000;
+  --primary-2: #0b0b0b;
+  --secondary: #a238e6;
+  --text-base: white;
+  --text-primary: white;
+  --text-secondary: var(--secondary);
+  --hover: var(--accent-2);
+  --pink: rgba(222, 57, 117);
+  --magenta: rgba(234, 135, 125, 1);
+  --yellow: #fcdb03;
+  --accent-9: rgba(217, 217, 217, 0.1);
+  --accent-8: #fafafa;
+  --accent-7: rgba(255, 255, 255, 0.65);
+  --accent-6: #999999;
+  --accent-5: #888a91;
+  --accent-4: #666666;
+  --accent-3: #444444;
+  --accent-2: #2c2c2c;
+  --accent-1: rgba(255, 255, 255, 0.05);
+  --accent-0: #111111;
+  --font-sans: -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue',
+    'Helvetica', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+  touch-action: manipulation;
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary);
+  color: var(--text-primary);
+  overscroll-behavior-x: none;
+  background-image: url(/BG.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body {
+  position: relative;
+  margin: 0;
+}
+
+table {
+  width: 100%;
+}
+
+thead {
+  @apply bg-primary;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+td {
+  @apply bg-black;
+}
+
+tr {
+  @apply h-14 bg-accent-9;
+}
+
+td,
+tr,
+th {
+  @apply px-16;
+}
+
+tbody {
+  @apply divide-y divide-accent-1;
+}
+
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

@@ -1,0 +1,13 @@
+.link {
+  @apply inline-flex items-center leading-6
+  transition ease-in-out duration-75 cursor-pointer
+  font-bold text-accent-2;
+}
+
+.link:hover {
+  @apply text-accent-5;
+}
+
+.link:focus {
+  @apply outline-none text-accent-4;
+}
