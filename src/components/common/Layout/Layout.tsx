@@ -12,10 +12,6 @@ const Layout: FC<{
       label: 'Home'
     },
     {
-      href: '/portfolio',
-      label: 'Portfolio'
-    },
-    {
       href: '/about',
       label: 'About'
     },
