@@ -2,13 +2,10 @@ import { FC } from 'react';
 import s from './Layout.module.css';
 import cn from 'clsx';
 import { Navbar, Footer } from '@components/common';
-import { useRouter } from 'next/router';
 
 const Layout: FC<{
   children: any;
 }> = ({ children }) => {
-  const { pathname } = useRouter();
-
   let navBarLinks = [
     {
       href: '/',
@@ -18,10 +15,10 @@ const Layout: FC<{
       href: '/portfolio',
       label: 'Portfolio'
     },
-    // {
-    //   href: '/about',
-    //   label: 'About'
-    // },
+    {
+      href: '/about',
+      label: 'About'
+    },
     {
       href: '/contact',
       label: 'Contact'
