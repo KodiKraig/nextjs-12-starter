@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text renders different variants Body 1`] = `
+<div
+  className="root body"
+  style={
+    {
+      "alignItems": "center",
+    }
+  }
+>
+   Hello World 
+</div>
+`;
+
+exports[`Text renders different variants Heading 1`] = `
+<h1
+  className="root heading"
+>
+   Hello World 
+</h1>
+`;
+
+exports[`Text renders different variants Page Heading 1`] = `
+<h2
+  className="root pageHeading"
+>
+   Hello World 
+</h2>
+`;
+
+exports[`Text renders different variants Section Heading 1`] = `
+<h3
+  className="root sectionHeading"
+>
+   Hello World 
+</h3>
+`;
