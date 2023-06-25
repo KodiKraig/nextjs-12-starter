@@ -37,3 +37,6 @@ next-env.d.ts
 
 # VS Code
 /.vscode
+
+# Rust-based platform for the Web (Used by NextJS)
+/.swc
