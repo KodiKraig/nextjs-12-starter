@@ -1,0 +1,7 @@
+.root {
+  @apply bg-primary py-2 pl-5 w-full appearance-none transition duration-150 ease-in-out pr-10 border border-accent-3 text-base rounded-md;
+}
+
+.root:focus {
+  @apply shadow-sm;
+}

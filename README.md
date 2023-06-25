@@ -45,6 +45,10 @@ Below are the main dependencies for the project.
 - [tailwindcss](https://tailwindcss.com/)
 - [PostCSS](https://github.com/postcss/postcss)
 
+### Networking
+
+- [apisauce](https://github.com/infinitered/apisauce)
+
 ### Testing
 
 - [Jest](https://jestjs.io/)

@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { Container, Text } from '@components/ui';
+import { Text } from '@components/ui';
 
 interface TextBoxProps {
   children?: any;

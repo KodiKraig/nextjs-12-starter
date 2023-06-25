@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './src/pages/**/*.{js,ts,jsx,tsx}',
-    './src/components/**/*.{js,ts,jsx,tsx}'
-  ],
+  content: ['./src/pages/**/*.{js,ts,jsx,tsx}', './src/components/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       spacing: {
@@ -32,7 +29,8 @@ module.exports = {
         'accent-9': 'var(--accent-9)',
         magenta: 'var(--magenta)',
         pink: 'var(--pink)',
-        yellow: 'var(--yellow)'
+        yellow: 'var(--yellow)',
+        green: 'var(--green)'
       },
       textColor: {
         base: 'var(--text-base)',

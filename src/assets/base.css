@@ -7,6 +7,7 @@
   --text-secondary: var(--secondary);
   --hover: var(--accent-2);
   --pink: rgba(222, 57, 117);
+  --green: rgba(50, 168, 82);
   --magenta: rgba(234, 135, 125, 1);
   --yellow: #fcdb03;
   --accent-9: rgba(217, 217, 217, 0.1);
@@ -19,8 +20,8 @@
   --accent-2: #2c2c2c;
   --accent-1: rgba(255, 255, 255, 0.05);
   --accent-0: #111111;
-  --font-sans: -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue',
-    'Helvetica', sans-serif;
+  --font-sans: -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', 'Helvetica',
+    sans-serif;
 }
 
 *,
