@@ -11,8 +11,8 @@ const LeadingContent = () => {
         Start your project with NextJS Starter Project today!
       </Text>
       <Text>
-        NextJS 12 Starter Project is designed to get you up and running with the
-        bare minimum dependencies for an excellent developer experience.
+        NextJS 12 Starter Project is designed to get you up and running with the bare minimum
+        dependencies for an excellent developer experience.
       </Text>
     </div>
   );
@@ -81,9 +81,7 @@ const OtherLinks = () => {
 };
 
 const HelpLinks = () => {
-  return (
-    <Links title="Help" links={[{ linkTitleText: 'FAQ', onClick: () => {} }]} />
-  );
+  return <Links title="Help" links={[{ linkTitleText: 'FAQ', onClick: () => {} }]} />;
 };
 
 // Footer
@@ -109,7 +107,7 @@ const BottomContent = () => {
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary text-secondary">
+    <footer className="bg-secondary text-secondary mt-32">
       <Container clean className="flex flex-col">
         <TopContent />
         <BottomContent />
