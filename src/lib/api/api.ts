@@ -5,7 +5,7 @@ import { ApiConfig, HelloWorldResponse } from './types';
  * Configuring the apisauce instance.
  */
 export const DEFAULT_API_CONFIG: ApiConfig = {
-  url: 'http://localhost:3000/api',
+  url: `${process.env.API_URL ?? 'http://localhost:3000'}/api`,
   timeout: 10000
 };
 
